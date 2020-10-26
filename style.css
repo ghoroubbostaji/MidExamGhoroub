@@ -1,9 +1,211 @@
-td {
-  font-size: 30pt;
+body{
+  margin: 0;
+  padding-top: 0;
+  background-color: #cdc9c3;
+}
+.allContent{
+  text-align: center;
+  margin-left: 5%;
+  margin-right:  5%;
+  width: 90%;
+  padding: 0;
+  background-color: blue;
+}
+
+.header{
+    position: fixed;
+    margin: 0;
+    margin-top: 0;
+    width: 90%;
+    padding-top: 20px;
+    height: 60px;
+    background-color: #f6f5f5;
+    border-bottom: solid 1px;
+    font-size: 14px;
+    font-family:monaco,Consolas,"Lucida Console",monospace;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  padding-left: 0;
+  font-size: 18px;
+}
+.leftBar{
+  padding-left: 0;
+  font-size: 25px;
+  padding-top: 9px;
+  display: inline;
+}
+.navbar{
+  overflow: hidden;
+}
+/* .navbar a {
+  float: right;
+} */
+.dropdown{
+  /* float: right; */
+  display: inline-block;
+  margin-right: 58px;
+}
+
+.dropdown-content{
+  position: absolute;
+  background-color: #f9f9f9;
+  display: none;
+  width: 140px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+
+.dropdown-content a {
+  color: #555555;
+  padding-top: 15px;
+  padding-bottom: 18px ;
+  text-decoration: none;
+
+}
+
+.pad{ padding-top: 20px;}
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 35px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+label, h3{color:#555555;}
+h4{color: #838383; font-size: 15px; margin-top: 0;}
+li a {
+  color: #555555;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+  color: #e84a5f;
+}
+.leftBar:hover{
+  color: #e84a5f;
+}
+
+
+.blackDiv{
+  height: 600px;
+  background-color: #393b44;
+  text-align: center;
+  margin-bottom: 0;
+  font-family:monaco,Consolas,"Lucida Console",monospace;
+}
+.Circular{border-radius : 100%; border: 1px solid #555; }
+#logo1{
+  margin-top: 110px;
+  height: 190px;
+  width: 180px;}
+
+
+p{
+  font-family:monaco,Consolas,"Lucida Console",monospace;
+  color: #f6f5f5;
+}
+
+.BeMore{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.BeMore a{color:#ffcbcb;}
+.BeMore a:hover{color: #ffe05d;}
+.exe{
+  font-size: 17px;
+  margin-bottom: 60px;
+}
+
+.clickBtn:hover{
+  color: black;
+  background-color: #f6f5f5;
+
+}
+
+.Ihelp{
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 23px;
+}
+#unseen{color:#f6f5f5;}
+table{
+  font-size: 40px;
+  text-align: center;
+  color: #555555;
+
+}
+td{
+  font-size: 30px;
+  padding-left: 60px;
+  padding-top: 0;
+}
+th{text-align: left;}
+
+.tdStyle a{
+  text-align: left;
+  color: #838383;
+}
+.tdStyle a:hover{color: #407088;}
+#onlyMargin{margin-top: 80px;}
+
+.foshiDiv{
+  margin-top: 0;
+  padding-top: 20px;
+  height: 350px;
+  background-color: #ffcbcb;
+  text-align: center;
+  font-family:monaco,Consolas,"Lucida Console",monospace;
+}
+
+.Fields{
+  font-size: 20px;
+  text-align: center;
+  color: #f6f5f5;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.aboutme{
+  font-size: 20px;
+  text-align: center;
+  color: #555555;
+  margin-top: 200px;
+  margin-bottom: 10px;
+
+}
+
+.overImg:hover {background-color:#ffe2e2; border-radius : 100%;}
+
+.footer{
+  margin-top: 0;
+  padding-top: 20px;
+  height: 120px;
+  background-color: #f6f5f5;
+  text-align: center;
+  font-family:monaco,Consolas,"Lucida Console",monospace;
+}
+.footerA{
+  text-decoration: none;
+  color: #555555;
+}
+
+.game {
+  font-size: 30px;
   width: 50px;
   text-align: center;
 }
 button{
-  color:pink;
-  background-color: blue;
+  color: #f6f5f5;
+  background-color: #838383;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#result1{
+  color: #555555;
+  font-size: 20px;
 }

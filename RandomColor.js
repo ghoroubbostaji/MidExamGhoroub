@@ -7,22 +7,30 @@ function getRandomNum(min, max) {
 
 function runme()
     {
-      myList = [0];
-      myColors = ['', 'Red', 'Orange', 'Yellow', 'Green', 'lightblue', 'Blue', 'White', 'Gray', 'Pink'];
-      while(myList.length < 10)
+      myList1 = [0];
+      myList2 = [0];
+      myColors = ['', 'Crimson', 'DarkSalmon', 'Khaki', 'DarkSeaGreen', 'lightblue', 'DodgerBlue', 'FloralWhite', 'DarkGrey', 'PaleVioletRed'];
+      while(myList1.length < 10)
       {
-        r = getRandomNum(1,10);
-
-        if( !myList.includes(r) ){
-          myList.push(r);
+        r1 = getRandomNum(1,10);
+        if( !myList1.includes(r1) ){
+          myList1.push(r1);
+        }
+      }
+      while(myList2.length < 10)
+      {
+        r2 = getRandomNum(1,10);
+        if( !myList2.includes(r2) ){
+          myList2.push(r2);
         }
       }
 
       for ( i=1; i<=9; i++)
        {
         cell = document.getElementById('t'+i);
-        r=myList[i];
-        cell.innerHTML = r;
-        cell.style.backgroundColor = myColors[r];
+        r1=myList1[i];
+        r2=myList2[i];
+        cell.innerHTML = r1;
+        cell.style.backgroundColor = myColors[r2];
       }
   }
