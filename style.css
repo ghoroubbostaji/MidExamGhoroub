@@ -141,7 +141,7 @@ table{
 }
 td{
   font-size: 30px;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-top: 0;
 }
 th{text-align: left;}
@@ -203,7 +203,7 @@ button{
   color: #f6f5f5;
   background-color: #838383;
   font-size: 20px;
-  padding: 15px;
+  padding: 12px;
 }
 
 #result1{
