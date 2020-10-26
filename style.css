@@ -156,7 +156,7 @@ th{text-align: left;}
 .foshiDiv{
   margin-top: 0;
   padding-top: 20px;
-  height: 350px;
+  height: 400px;
   background-color: #ffcbcb;
   text-align: center;
   font-family:monaco,Consolas,"Lucida Console",monospace;
@@ -194,8 +194,9 @@ th{text-align: left;}
 }
 
 .game {
-  font-size: 30px;
-  width: 50px;
+  font-size: 20px;
+  width: 30px;
+  padding: 10px
   text-align: center;
 }
 button{
@@ -208,4 +209,8 @@ button{
 #result1{
   color: #555555;
   font-size: 20px;
+}
+h3{
+  font-size: 20px;
+  text-align: center;
 }

@@ -19,11 +19,13 @@ function runme()
   for (i=1; i<=9; i++)
   {
     cell = document.getElementById('t'+i);
-    cell.innerHTML = myList[i];
-    cell.style.visibility = 'visible';
+    num = document.getElementById('d'+i);
+    num.innerHTML = myList[i];
     cell.style.backgroundColor = 'lightblue';
+    num.style.visibility = 'visible';
 
-    cell.addEventListener("mousemove", function(){
+
+    num.addEventListener("mousemove", function(){
                                       this.style.visibility = 'hidden';
                                       OrderedHiddenList.push(this.innerHTML);
                                       if( OrderedHiddenList.length == 9){
