@@ -16,7 +16,7 @@ function runme()
     }
   }
 
-  myNumbersInOrder = [];
+
   for ( i=1; i<=9; i++)
   {
     cell = document.getElementById('t'+i);
